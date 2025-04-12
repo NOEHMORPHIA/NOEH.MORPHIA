@@ -132,20 +132,29 @@
 <!-- Modal -->
       <div class="modal fade" id="photoModal1" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel1" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content" style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.95);"> <!-- 배경 투명도 약간 -->
+          <div class="modal-content" style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.9);">
       
-            <div class="modal-header border-0 d-flex flex-column align-items-center" style="padding-top: 30px;">
-              <h4 class="modal-title text-center" id="photoModalLabel1" style="font-size: 32px; font-weight: bold; font-family: 'Helvetica Neue', sans-serif;">Apple 프로젝트 이름 예시</h4> <!-- 제목 크고 가운데 -->
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 20px; font-size: 30px;">
+            <!-- 상단 닫기 버튼 -->
+            <div class="modal-header border-0">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 30px;">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
 
-            <div class="modal-body d-flex flex-column align-items-center justify-content-center" style="padding: 30px;">
-              <img src="img/portfolio1.jpg" class="img-fluid" style="max-width: 80%; height: auto; border-radius: 10px; margin-bottom: 30px;"> <!-- 가로 가운데 + 적절한 크기 -->
-              <p style="font-size: 16px; text-align: center; max-width: 700px; font-family: 'Helvetica Neue', sans-serif; margin: 0;">
-                esajd sdasdjqjwd dsqjdsj dqsdqqds이 프로젝트는 ~~을 기반으로 제작되었습니다. 기능, 도전, 결과 등 자유롭게 작성하세요.
-              </p>
+            <!-- 본문 내용 -->
+            <div class="modal-body d-flex flex-wrap justify-content-center align-items-center">
+              <div style="text-align: center; width: 100%;">
+                <img src="img/portfolio1.jpg" class="img-fluid" 
+                     style="max-width: 70%; border-radius: 10px; display: block; margin: 0 auto;" 
+                     alt="Portfolio 1">
+                <h4 class="modal-title" id="photoModalLabel1" 
+                    style="text-align: center; font-size: 32px; margin-top: 20px; font-family: 'Raleway', sans-serif;">
+                    프로젝트 이름 예시
+                </h4>
+                <p style="font-size: 16px; color: #333; font-family: 'Raleway', sans-serif; text-align: center;">
+                  이 프로젝트는 ~~을 기반으로 제작되었습니다. 기능, 도전, 결과 등 자유롭게 작성하세요.
+                </p>
+              </div>
             </div>
 
           </div>
