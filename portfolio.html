@@ -132,29 +132,21 @@
 <!-- Modal -->
       <div class="modal fade" id="photoModal1" tabindex="-1" role="dialog" aria-labelledby="photoModalLabel1" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content" style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.9); border: none; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+          <div class="modal-content" style="border-radius: 10px; background-color: rgba(255, 255, 255, 0.95);"> <!-- 배경 투명도 약간 -->
       
-            <!-- 제목 영역 -->
-            <div class="modal-header d-flex flex-column justify-content-center align-items-center border-0 p-0" style="height: 150px;">
-              <h2 class="modal-title text-center" id="photoModalLabel1" style="font-weight: 700; font-size: 42px; margin: 0;">
-                project name 프로젝트 이름 예시
-              </h2>
-              <button type="button" class="close position-absolute" style="right: 20px; top: 20px; font-size: 30px;" data-dismiss="modal" aria-label="Close">
+            <div class="modal-header border-0 d-flex flex-column align-items-center" style="padding-top: 30px;">
+              <h4 class="modal-title text-center" id="photoModalLabel1" style="font-size: 32px; font-weight: bold; font-family: 'Helvetica Neue', sans-serif;">Apple 프로젝트 이름 예시</h4> <!-- 제목 크고 가운데 -->
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 20px; font-size: 30px;">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
-      
-<!-- 본문: 사진 + 설명 -->
-      <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 40px 20px;">
-  
-        <div **style="display: flex; justify-content: center; width: 100%;"**>
-          <img src="img/portfolio1.jpg" class="img-fluid" **style="max-width: 85%; border-radius: 10px; margin-bottom: 25px; display: block;"** alt="Portfolio 1">
-        </div>
-  
-        <p style="font-size: 18px; color: #333; text-align: center; max-width: 700px; margin: 0;">
-          이 프로젝트는 ~~을 기반으로 제작되었습니다. 기능, 도전, 결과 등 자유롭게 작성하세요.
-        </p>
-      </div>
+
+            <div class="modal-body d-flex flex-column align-items-center justify-content-center" style="padding: 30px;">
+              <img src="img/portfolio1.jpg" class="img-fluid" style="max-width: 80%; height: auto; border-radius: 10px; margin-bottom: 30px;"> <!-- 가로 가운데 + 적절한 크기 -->
+              <p style="font-size: 16px; text-align: center; max-width: 700px; font-family: 'Helvetica Neue', sans-serif; margin: 0;">
+                esajd sdasdjqjwd dsqjdsj dqsdqqds이 프로젝트는 ~~을 기반으로 제작되었습니다. 기능, 도전, 결과 등 자유롭게 작성하세요.
+              </p>
+            </div>
 
           </div>
         </div>
