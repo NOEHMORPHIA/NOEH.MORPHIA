@@ -104,7 +104,8 @@ a:visited {
     padding-top: 10px;
 }
 .navbar-brand {
-    padding-top: 25px;
+    display: none;
+    
 }
 .navbar-brand > img {
     max-width: 127px;
