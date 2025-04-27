@@ -104,6 +104,9 @@ a:visited {
     padding-top: 10px;
 }
 .navbar-brand {
+  
+    /*---------- padding-top: 25px; 이거하면 로고뜬다----------*/
+    
     display: none;
     
 }
