@@ -101,13 +101,21 @@ a:visited {
     z-index: 99999;
 }
 .navbar-fixed-top {
-    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999; 
+    
+    /*-------- padding-top: 10px;------*/
 }
 .navbar-brand {
   
     /*---------- padding-top: 25px; 이거하면 로고뜬다----------*/
-    
-    display: none;
+    position: fixed;
+    top: 20px; /* 상단에서의 위치 조정 */
+    left: 20px; /* 왼쪽에서의 위치 조정 */
+    z-index: 99999; 
+ /*----------    display: none;----*/
     
 }
 .navbar-brand > img {
